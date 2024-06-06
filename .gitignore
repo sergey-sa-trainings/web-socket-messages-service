@@ -1,0 +1,8 @@
+client/build/
+client/node_modules/
+server/node_modules/
+server/client_files/
+*.log
+.DS_Store
+client/package-lock.json
+server/package-lock.json

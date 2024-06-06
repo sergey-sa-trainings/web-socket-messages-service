@@ -1,0 +1,36 @@
+:root {
+  --main-transition: 0.5s;
+  --green-color: #668c03;
+  --white-color: #fff;
+  --gray-color: #767676;
+  --box-shadow: rgb(193, 187, 187) 0px 0px 15px;
+  --box-shadow-hover: rgb(100, 100, 100) 0px 0px 15px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  margin: 0;
+  background: #efefef;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input {
+    margin: 5px;
+    width: 90%;
+    border: none;
+    box-shadow: var(--box-shadow);
+    -webkit-box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: var(--box-shadow-hover);
+    -webkit-box-shadow: var(--box-shadow-hover);
+}
+
+.submit-icon {
+    padding: 0;
+    background: none;
+    border: none;
+    margin-left: 15px;
+}
+
+.submit-icon svg {
+    width: 35px;
+    fill: var(--gray-color);
+    transition: var(--main-transition);
+}
+
+.submit-icon svg:hover {
+    fill: var(--green-color);
+}
